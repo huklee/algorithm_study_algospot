@@ -36,7 +36,7 @@ void input() {
 int visit[10] = { 0, };
 int ok_num = 0;
 
-// Exhausted search in recursive way
+// Exhaustive search in recursive way
 // O(N^N)
 int unit_solve_rec(int s) {
 	int result = 0;
